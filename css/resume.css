@@ -1,40 +1,73 @@
-/* Write CSS Here */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 body {
 	background-color: rgb(242, 242, 242);
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	margin: 0px;
 }
 .full {
-	width: 100%;
-	max-width: 1000px;
-	min-height: 100px;
 	background-color: rgb(242, 242, 242);
 	margin: 0px;
 	display: grid;
-	grid-template-columns: 2fr 4fr;
+	grid-template-columns: 1fr 5fr;
 }
 .left {
 	position: initial;
-	background-color: rgb(51, 204, 204);
+	background-color: rgb(204, 255, 255);
 	padding: 20px;
-
 }
 .right {
 	position: initial;
 	background-color: rgb(242, 242, 242);
 	padding: 20px;
+}
 
+#imgcv {
+	width:70px;
+	height:70px;
+	float:left;
 }
-.image, .Contact, .Skills, .Language, .Hobbies, .title,
-.Summary, .Experience, .Education, .project {
-	margin-bottom: 30px;
+
+.a:link, .a:visited {
+  background-color: white;
+  border: 2px solid #008CBA;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
-.h2 {
-	background-color: rgb(4, 96, 150);
+
+.a:hover, .a:active {
+  background-color: #008CBA;
+  color: white;
+}
+	
+hr{
+	height: 1px;
+	background-color: black;
+	border: 1px solid black;
+}
+
+h2{
+	color: 	rgb(0, 119, 179);
+}
+
+p, ul, dl{
+	font-size: 18px;
+}
+
+ul{
+	list-style-type: square;
+}
+
+dl{
+	margin-left: 2%;
+}
+
+.img{
+	width:24px;
+	height:24px;
+	float:left;
 }
