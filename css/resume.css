@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: rgb(253, 254, 255);
+	background-color: rgb(242, 242, 242);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,7 +14,7 @@ body {
 	width: 50%;
 	max-width: 1000px;
 	min-height: 100px;
-	background-color: rgb(245, 239, 231);
+	background-color: rgb(51, 204, 204);
 	margin: 0px;
 	display: grid;
 	grid-template-columns: 2fr 4fr;
